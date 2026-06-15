@@ -51,7 +51,7 @@ class Settings:
     tipo_etiquetado: str = "gray"  # "binario" o "gray"
 
     # Canal
-    usar_awgn: bool = True
+    usar_awgn: bool = False
     usar_atenuacion: bool = False
     usar_respuesta_impulsiva: bool = False
     N0: float = 0.157
@@ -111,3 +111,4 @@ class Settings:
             graficar_constelacion_tx=True,
             graficar_constelacion_rx=True,
         )
+
