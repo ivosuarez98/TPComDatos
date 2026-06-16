@@ -1,0 +1,12 @@
+Caso,Modulación,M,Etiquetado,EbN0_dB,N0,AWGN,Atenuación,Atenuación aplicada,Codificación canal,Bits fuente,Bits modulador,Símbolos TX,Es teórica,Eb teórica,Es estimada,Eb estimada,Errores símbolo,Pe símbolo,Errores bit,Pe bit,Decodificación
+fsk_M8_binario_sin_codigo_EbN0_0_dB,M-FSK,8,binario,0,1.0,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,344517,0.17531226,591037,0.1002525,Con errores
+fsk_M8_binario_sin_codigo_EbN0_1_dB,M-FSK,8,binario,1,0.7943282347242815,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,233135,0.11863399,399947,0.06783955,Con errores
+fsk_M8_binario_sin_codigo_EbN0_2_dB,M-FSK,8,binario,2,0.6309573444801932,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,142023,0.07227038,243670,0.04133164,Con errores
+fsk_M8_binario_sin_codigo_EbN0_3_dB,M-FSK,8,binario,3,0.5011872336272724,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,75394,0.03836528,129381,0.02194578,Con errores
+fsk_M8_binario_sin_codigo_EbN0_4_dB,M-FSK,8,binario,4,0.39810717055349726,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,33845,0.0172225,58078,0.00985127,Con errores
+fsk_M8_binario_sin_codigo_EbN0_5_dB,M-FSK,8,binario,5,0.31622776601683794,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,12313,0.00626564,21091,0.00357748,Con errores
+fsk_M8_binario_sin_codigo_EbN0_6_dB,M-FSK,8,binario,6,0.251188643150958,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,3406,0.00173319,5853,0.00099279,Con errores
+fsk_M8_binario_sin_codigo_EbN0_7_dB,M-FSK,8,binario,7,0.199526231496888,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,677,0.0003445,1161,0.00019693,Con errores
+fsk_M8_binario_sin_codigo_EbN0_8_dB,M-FSK,8,binario,8,0.15848931924611132,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,88,4.478e-05,155,2.629e-05,Con errores
+fsk_M8_binario_sin_codigo_EbN0_9_dB,M-FSK,8,binario,9,0.1258925411794167,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,10,5.09e-06,14,2.37e-06,Con errores
+fsk_M8_binario_sin_codigo_EbN0_10_dB,M-FSK,8,binario,10,0.1,True,False,1.0,False,5895484,5895484,1965162,3.0,1.0,3.0,1.0,0,0.0,0,0.0,OK

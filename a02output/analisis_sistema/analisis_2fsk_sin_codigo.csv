@@ -1,0 +1,12 @@
+Caso,Modulación,M,Etiquetado,EbN0_dB,N0,AWGN,Atenuación,Atenuación aplicada,Codificación canal,Bits fuente,Bits modulador,Símbolos TX,Es teórica,Eb teórica,Es estimada,Eb estimada,Errores símbolo,Pe símbolo,Errores bit,Pe bit,Decodificación
+fsk_M2_binario_sin_codigo_EbN0_0_dB,M-FSK,2,binario,0,1.0,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,934694,0.15854407,934694,0.15854407,Con errores
+fsk_M2_binario_sin_codigo_EbN0_1_dB,M-FSK,2,binario,1,0.7943282347242815,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,771711,0.13089867,771711,0.13089867,Con errores
+fsk_M2_binario_sin_codigo_EbN0_2_dB,M-FSK,2,binario,2,0.6309573444801932,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,613701,0.1040968,613701,0.1040968,Con errores
+fsk_M2_binario_sin_codigo_EbN0_3_dB,M-FSK,2,binario,3,0.5011872336272724,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,466218,0.07908053,466218,0.07908053,Con errores
+fsk_M2_binario_sin_codigo_EbN0_4_dB,M-FSK,2,binario,4,0.39810717055349726,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,333673,0.05659807,333673,0.05659807,Con errores
+fsk_M2_binario_sin_codigo_EbN0_5_dB,M-FSK,2,binario,5,0.31622776601683794,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,222517,0.03774364,222517,0.03774364,Con errores
+fsk_M2_binario_sin_codigo_EbN0_6_dB,M-FSK,2,binario,6,0.251188643150958,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,135861,0.02304493,135861,0.02304493,Con errores
+fsk_M2_binario_sin_codigo_EbN0_7_dB,M-FSK,2,binario,7,0.199526231496888,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,74552,0.01264561,74552,0.01264561,Con errores
+fsk_M2_binario_sin_codigo_EbN0_8_dB,M-FSK,2,binario,8,0.15848931924611132,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,35281,0.00598441,35281,0.00598441,Con errores
+fsk_M2_binario_sin_codigo_EbN0_9_dB,M-FSK,2,binario,9,0.1258925411794167,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,14354,0.00243474,14354,0.00243474,Con errores
+fsk_M2_binario_sin_codigo_EbN0_10_dB,M-FSK,2,binario,10,0.1,True,False,1.0,False,5895484,5895484,5895484,1.0,1.0,1.0,1.0,4665,0.00079128,4665,0.00079128,Con errores

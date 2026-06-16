@@ -1,0 +1,12 @@
+Caso,Modulación,M,Etiquetado,EbN0_dB,N0,AWGN,Atenuación,Atenuación aplicada,Codificación canal,Bits fuente,Bits modulador,Símbolos TX,Es teórica,Eb teórica,Es estimada,Eb estimada,Errores símbolo,Pe símbolo,Errores bit,Pe bit,Decodificación
+qam_M4_gray_sin_codigo_EbN0_0_dB,M-QAM,4,gray,0,1.0,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,445235,0.15104273,463667,0.07864783,Con errores
+qam_M4_gray_sin_codigo_EbN0_1_dB,M-QAM,4,gray,1,0.7943282347242815,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,322462,0.10939288,331913,0.05629953,Con errores
+qam_M4_gray_sin_codigo_EbN0_2_dB,M-QAM,4,gray,2,0.6309573444801932,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,217265,0.07370557,221451,0.03756282,Con errores
+qam_M4_gray_sin_codigo_EbN0_3_dB,M-QAM,4,gray,3,0.5011872336272724,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,133473,0.04527974,134994,0.02289787,Con errores
+qam_M4_gray_sin_codigo_EbN0_4_dB,M-QAM,4,gray,4,0.39810717055349726,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,73277,0.02485869,73694,0.01250008,Con errores
+qam_M4_gray_sin_codigo_EbN0_5_dB,M-QAM,4,gray,5,0.31622776601683794,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,34865,0.0118277,34960,0.00592996,Con errores
+qam_M4_gray_sin_codigo_EbN0_6_dB,M-QAM,4,gray,6,0.251188643150958,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,13884,0.00471005,13900,0.00235774,Con errores
+qam_M4_gray_sin_codigo_EbN0_7_dB,M-QAM,4,gray,7,0.199526231496888,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,4445,0.00150793,4449,0.00075465,Con errores
+qam_M4_gray_sin_codigo_EbN0_8_dB,M-QAM,4,gray,8,0.15848931924611132,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,1082,0.00036706,1082,0.00018353,Con errores
+qam_M4_gray_sin_codigo_EbN0_9_dB,M-QAM,4,gray,9,0.1258925411794167,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,199,6.751e-05,199,3.375e-05,Con errores
+qam_M4_gray_sin_codigo_EbN0_10_dB,M-QAM,4,gray,10,0.1,True,False,1.0,False,5895484,5895484,2947742,2.0,1.0,2.0,1.0,22,7.46e-06,22,3.73e-06,Con errores

@@ -1,0 +1,12 @@
+Caso,Modulación,M,Etiquetado,EbN0_dB,N0,AWGN,Atenuación,Atenuación aplicada,Codificación canal,Bits fuente,Bits modulador,Símbolos TX,Es teórica,Eb teórica,Es estimada,Eb estimada,Errores símbolo,Pe símbolo,Errores bit,Pe bit,Decodificación
+fsk_M16_binario_sin_codigo_EbN0_0_dB,M-FSK,16,binario,0,1.0,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,249076,0.16899444,531412,0.09013882,Con errores
+fsk_M16_binario_sin_codigo_EbN0_1_dB,M-FSK,16,binario,1,0.7943282347242815,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,154079,0.10454036,328822,0.05577523,Con errores
+fsk_M16_binario_sin_codigo_EbN0_2_dB,M-FSK,16,binario,2,0.6309573444801932,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,83012,0.05632243,177185,0.03005436,Con errores
+fsk_M16_binario_sin_codigo_EbN0_3_dB,M-FSK,16,binario,3,0.5011872336272724,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,37270,0.02528715,79441,0.01347489,Con errores
+fsk_M16_binario_sin_codigo_EbN0_4_dB,M-FSK,16,binario,4,0.39810717055349726,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,13307,0.00902861,28212,0.00478536,Con errores
+fsk_M16_binario_sin_codigo_EbN0_5_dB,M-FSK,16,binario,5,0.31622776601683794,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,3559,0.00241473,7516,0.00127487,Con errores
+fsk_M16_binario_sin_codigo_EbN0_6_dB,M-FSK,16,binario,6,0.251188643150958,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,630,0.00042745,1337,0.00022678,Con errores
+fsk_M16_binario_sin_codigo_EbN0_7_dB,M-FSK,16,binario,7,0.199526231496888,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,83,5.631e-05,175,2.968e-05,Con errores
+fsk_M16_binario_sin_codigo_EbN0_8_dB,M-FSK,16,binario,8,0.15848931924611132,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,5,3.39e-06,8,1.36e-06,Con errores
+fsk_M16_binario_sin_codigo_EbN0_9_dB,M-FSK,16,binario,9,0.1258925411794167,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,0,0.0,0,0.0,OK
+fsk_M16_binario_sin_codigo_EbN0_10_dB,M-FSK,16,binario,10,0.1,True,False,1.0,False,5895484,5895484,1473871,4.0,1.0,4.0,1.0,0,0.0,0,0.0,OK
