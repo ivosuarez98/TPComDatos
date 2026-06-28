@@ -62,11 +62,18 @@ def obtener_matriz_paridad(k: int, n: int, G) -> np.ndarray:
     return H.astype(int)
 
 
-def calcular_tabla_sindromes(H) -> Dict[tuple, np.ndarray]:
+def _sindrome_a_int(sindrome: np.ndarray) -> int:
+    num = 0
+    for bit in sindrome:
+        num = (num << 1) | int(bit)
+    return num
+
+
+def calcular_tabla_sindromes(H) -> Dict[int, np.ndarray]:
     H = validar_binario(H, "La matriz H")
     filas_H, n = H.shape
     cantidad_sindromes = 2 ** filas_H
-    tabla_sindromes = {}
+    tabla_sindromes: Dict[int, np.ndarray] = {}
 
     for peso in range(n + 1):
         for posiciones in combinations(range(n), peso):
@@ -75,9 +82,9 @@ def calcular_tabla_sindromes(H) -> Dict[tuple, np.ndarray]:
                 error[pos] = 1
 
             sindrome = np.mod(np.dot(H, error.T), 2)
-            sindrome_clave = tuple(sindrome)
-            if sindrome_clave not in tabla_sindromes:
-                tabla_sindromes[sindrome_clave] = error.copy()
+            clave = _sindrome_a_int(sindrome)
+            if clave not in tabla_sindromes:
+                tabla_sindromes[clave] = error.copy()
 
             if len(tabla_sindromes) == cantidad_sindromes:
                 return tabla_sindromes
@@ -94,7 +101,7 @@ def corregir_palabra(H, S, palabra_recibida):
         raise ValueError(f"La palabra recibida debe tener longitud {n}")
 
     sindrome = np.mod(np.dot(H, palabra_recibida.T), 2)
-    sindrome_clave = tuple(sindrome)
+    clave = _sindrome_a_int(sindrome)
 
     if np.all(sindrome == 0):
         patron_error = np.zeros(n, dtype=int)
@@ -103,8 +110,8 @@ def corregir_palabra(H, S, palabra_recibida):
         error_corregido = False
     else:
         error_detectado = True
-        if sindrome_clave in S:
-            patron_error = np.array(S[sindrome_clave], dtype=int)
+        if clave in S:
+            patron_error = np.array(S[clave], dtype=int)
             palabra_corregida = np.mod(palabra_recibida + patron_error, 2)
             error_corregido = True
         else:
